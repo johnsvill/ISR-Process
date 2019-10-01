@@ -534,13 +534,13 @@
                         <InArgument x:TypeArguments="ui:GenericValue">["40331539"]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'RetenISR2 Apollorun'" sap:VirtualizedContainerService.HintSize="560,2511" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="722b56e024e742c8513e528ae0584a40" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;">
+                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'RetenISR2 Apollorun'" sap:VirtualizedContainerService.HintSize="560,2520" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="722b56e024e742c8513e528ae0584a40" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;">
                       <ui:WindowScope.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="526,2365" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="526,2374" sap2010:WorkflowViewState.IdRef="Sequence_25">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -564,14 +564,14 @@
                                 </ui:Target>
                               </ui:ClickImage.Target>
                             </ui:ClickImage>
-                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,477" sap2010:WorkflowViewState.IdRef="DoWhile_1" Condition="[ElementExists = False]">
-                              <Sequence sap:VirtualizedContainerService.HintSize="376,316" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,480" sap2010:WorkflowViewState.IdRef="DoWhile_1" Condition="[ElementExists = False]">
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,317" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="down" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,117" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="down" KeyModifiers="None" SpecialKey="True">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                       <ui:Target.TimeoutMS>
@@ -634,14 +634,14 @@
                                 </ui:Target>
                               </ui:ClickImage.Target>
                             </ui:ClickImage>
-                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,477" sap2010:WorkflowViewState.IdRef="DoWhile_2" Condition="[ElementExists = False]">
-                              <Sequence sap:VirtualizedContainerService.HintSize="376,316" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,480" sap2010:WorkflowViewState.IdRef="DoWhile_2" Condition="[ElementExists = False]">
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,317" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="down" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,117" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="down" KeyModifiers="None" SpecialKey="True">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                       <ui:Target.TimeoutMS>
@@ -704,14 +704,14 @@
                                 </ui:Target>
                               </ui:ClickImage.Target>
                             </ui:ClickImage>
-                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,477" sap2010:WorkflowViewState.IdRef="DoWhile_3" Condition="[ElementExists = False]">
-                              <Sequence sap:VirtualizedContainerService.HintSize="376,316" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                            <DoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="484,480" sap2010:WorkflowViewState.IdRef="DoWhile_3" Condition="[ElementExists = False]">
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,317" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="down" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="10" DelayMS="10" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,117" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="down" KeyModifiers="None" SpecialKey="True">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                       <ui:Target.TimeoutMS>
@@ -769,7 +769,7 @@
                           <av:Size x:Key="ShapeSize">200,68</av:Size>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="File Search" sap:VirtualizedContainerService.HintSize="376,331" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                      <Sequence DisplayName="File Search" sap:VirtualizedContainerService.HintSize="200,68" sap2010:WorkflowViewState.IdRef="Sequence_30">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -789,6 +789,106 @@
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="a29df5235b42df734a7d3448cbe369e8" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;&lt;ctrl name='Búsqueda' role='text' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_9" Text="C:\Users\Jonathan Villeda\Documents\modelos-carga-anexo-rentas-trabajo-reten-isr-2-escritorio.xls">
+                          <ui:TypeInto.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="04290ad88189663ab9ac32b321326985" Selector="&lt;wnd app='retenisr2.exe' cls='#32770' title='Seleccione el archivo que se cargará con app:/RetenISR_Escritori*' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:TypeInto.Target>
+                        </ui:TypeInto>
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_25" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="489b808e3a6951d8ee0a86370baad9e9" Selector="&lt;wnd app='retenisr2.exe' cls='#32770' title='Seleccione el archivo que se cargará con app:/RetenISR_Escritori*' /&gt;&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'text  Aceptar'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_26" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="672034e63a5c10fab5d2244d7bdb8a0b" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;&lt;ctrl name='Aceptar' role='text' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'text  Validación'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_27" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ef6914bc3a4950de938374660b955ed7" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;&lt;ctrl name='Validación' role='text' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'text  Aceptar'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_28" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="c2dc1dfe8417da771ccb035939a41b54" Selector="&lt;wnd app='retenisr2.exe' cls='ApolloRuntimeContentWindow' title='RetenISR2 Versión 1.6.5' /&gt;&lt;ctrl name='Aceptar' role='text' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
